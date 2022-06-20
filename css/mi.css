@@ -1,0 +1,289 @@
+/*css样式*/
+.dingbu{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #333;
+	color: #b0b0b0;
+	font-size: 12px;
+}
+.a1{
+	width: 1226px;
+	margin: 0 auto;
+}
+.dingbu-left{
+	float: left;
+}
+.dingbu-right{
+	float: right;
+}
+.dingbu li{
+	position: relative;
+	float: left;
+}
+.dingbu a{
+	color: #b0b0b0;
+}
+.dingbu a:hover{
+	color: #fff;
+}
+.dingbu span{
+	color: #424242;
+	margin: 0 3.6px;
+}
+.a3{
+	position: relative;
+	width: 120px;
+	height: 40px;
+	margin-left: 25px;
+	background-color: #424242;
+	cursor: pointer;		/*光标悬停变小手*/
+	transition: all .2s;
+}
+.a3:hover{
+	background-color: #fff;
+}
+.a3:hover a{
+	color: #ff6700;
+}
+/*购物车*/
+.gouwu{
+	position: absolute;
+	top: 40px;
+	right: 0;
+	width: 316px;
+	height: 0;
+	background-color: #fff;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 15);
+	color: #424242;
+	transition: all .5s;
+	/*高度设置为0，文字溢出*/
+	overflow: hidden;
+}
+.a3:hover>.gouwu{
+	height: 100px;
+	line-height: 100px;
+}
+/*下载app*/
+.xiazai{
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	margin-left: -62px;
+	width: 124px;
+	height: 0;
+	background-color: #fff;
+	box-shadow: 0 1px 5px #ccc;
+	overflow: hidden;
+	transition: all .5s;
+}
+.xiazai img{
+	width: 90px;
+	height: 90px;
+	margin: 18px 012px;
+}
+.xiazai p{
+	color: #333;
+	font-size: 14px;
+	line-height: 14px;
+}
+.dingbu-left>li:hover>.xiazai{
+	height: 148px;
+}
+/*导航部分*/
+.daohang{
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+}
+.b1{
+	width: 1226px;
+	height: 100px;
+	margin: 0 auto;
+}
+.logo{
+	width: 62px;
+	height: 56px;
+	background-color: #fff;
+	float: left;
+	margin-top: 22px;
+}
+.logo img{
+	width: 56px;
+}
+.logo img:hover{
+	transform: translateX();
+}
+.sousuo{
+	width: 296px;
+	height: 50px;
+	margin-top: 25px;
+	float: left;
+}
+.fenlei{
+	width: 850px;
+	height: 100px;
+	float: left;
+	padding-left: 72px;
+	box-sizing: border-box;
+}
+.fenlei>ul>li{
+	float: left;
+	padding: 38px 10px;
+}
+.fenlei>ul>li>a:hover{
+	color: #ff6700;
+}
+.sousuo>input{
+	width: 245px;
+	height: 50px;
+	border: 1px solid #e0e0e0;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border-right: none;
+}
+.sousuo>a{
+	float: right;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	font-size: 24px;
+	color: #616161;
+	line-height: 48px;
+}
+/*介绍*/
+.jieshao{
+	width: 1226px;
+	height: 63px;
+	margin: 0 auto;
+}
+.c1{
+	width: 280px;
+	height: 60px;
+	float: left;
+	font-size: 18px;
+	line-height: 60px;
+}
+.c2{
+	width: 430px;
+	height: 21px;
+	float: right;
+	font-size: 16px;
+	line-height: 60px;
+	color: #b0b0b0;
+}
+.c2 li{
+	float: left;
+	color: #000;
+}
+.c2 a:hover{
+	color: #ff6700;
+}
+.c2 span{
+	margin: 0 10px;
+	color: #b0b0b0;
+}
+
+/*图片*/
+.tupian{
+	width: 100%;
+	height: 1283px;
+}
+.d1{
+	width: 1226px; 
+	height: 490px;
+	margin: 0 auto;
+}
+.d5{
+	width: 1226px;
+	height: 530px;
+	margin: 0 auto;
+
+}
+.d2{
+	width: 608px;
+	height: 532px;
+	float: right;
+}
+.d3{
+	width: 100%;
+	height: 266px;
+	background-color: #f4f4f4;
+}
+.d4{
+	width: 1226px;
+	height: 266px;
+	margin: 0 auto;
+}
+/*售后服务*/
+.shouhou{
+	width: 1226px;
+	height: 80px;
+	margin: 0 auto;
+}
+.shouhou i{
+	font-size: 24px;
+}
+.shouhou>ul>li{
+	float: left;
+	padding: 27.5px 0px;
+}
+.shouhou a:hover{
+	color: #ff6700;
+}
+.shouhou span{
+	color: #424242;
+	margin: 64px;
+}
+/*尾巴*/
+.weiba img{
+	width: 1226px;
+	height: 393px;
+	margin: 0 auto;
+}
+/*耳朵*/
+.erduo li{
+	width: 84px;
+	height: 92px;
+	background-color: #fff;
+}
+.erduo ul{
+	color: #b0b0b0;
+	position: fixed;
+	left: 1435px;
+	top: 60px;
+}
+.erduo i{
+	width: 30px;
+	height: 30px;
+	font-size: 30px;
+	padding: 23px 23px 16px 16px;
+}
+
+
+.erduo a:hover{
+	color: #ff6700;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*线*/
+.xian{
+	width: 100%;
+	height: 1px;
+	background-color: #dddddd;
+	margin: 0 auto;
+}
